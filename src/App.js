@@ -56,7 +56,7 @@ function App() {
 
   else if (selectedModel === 'compare') {
     endpoint = `${BACKEND_URL}/predict/compare`;
-  }
+  } 
 
 
   try {
