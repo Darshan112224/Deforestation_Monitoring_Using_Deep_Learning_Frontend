@@ -45,7 +45,7 @@ function App() {
 
   const BACKEND_URL =
     process.env.REACT_APP_BACKEND_URL || 
-    'http://127.0.0.1:8000';
+    'https://darshan1622-deforestation-backend.hf.space';
 
 
   let endpoint = `${BACKEND_URL}/predict/cnn`;
