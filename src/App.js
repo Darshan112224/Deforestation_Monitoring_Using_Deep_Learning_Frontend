@@ -43,9 +43,7 @@ function App() {
   formData.append('file', file);
 
 
-  const BACKEND_URL =
-    process.env.REACT_APP_BACKEND_URL || 
-    'https://darshan1622-deforestation-backend.hf.space';
+  const BACKEND_URL = 'https://darshan1622-deforestation-backend.hf.space';
 
 
   let endpoint = `${BACKEND_URL}/predict/cnn`;
